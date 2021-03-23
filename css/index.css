@@ -1,0 +1,160 @@
+header{
+    width: 100%;
+    height: 8em;
+    background-color: var(--blanco);
+}
+
+.logo {
+    width: 16em;
+    margin-top: 1em;
+    margin-right: 10em;
+    float: left;
+    margin-left: 7em;
+}
+
+.nav{
+    
+    float: right;
+    margin-top: 4em;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 5em;
+    font-size: 1.5em;
+    margin-left: 4em;
+    margin-top: -0.5em;
+}
+
+.nav a:hover{
+    color: var(--griso);
+    transition: 0.4s;
+}
+
+.presentacion{
+    width: 100%;
+    height: 40em;
+    background-color: var(--gris);
+    font-family: 'Bebas Neue', cursive;
+    padding-top: 20em;
+}
+
+.deco1{
+    width: 60em;
+    margin-top: 0em;
+    margin-right: 10em;
+    float: left;
+}
+
+.saludo{
+    color: var(--negro);
+    font-size: 3em;
+    margin-left: 15em;
+}
+
+.grado{
+    color: var(--azul);
+    font-size: 2em;
+    margin-top: 0.5em;
+    margin-left: 22.5em;
+}
+
+.acercademi{
+    width: 100%;
+    height: 50em;
+    background-color: var(--blanco);
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.acercademitexto{
+    color: var(--blanco);
+    font-size: 4em;
+    float: right;
+    margin-top: 1em;
+    margin-right: 3em;
+}
+div1{
+    width: 60%;
+    height: 75%;
+    background-color: var(--azul);
+    margin: 6em;
+    box-shadow: -12px 12px 30px 1px grey;
+    border-radius: 1em;
+}
+
+.programas{
+    width: 100%;
+    height: 40em;
+    background-color: var(--gris);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.progras{
+    color: var(--blanco);
+    font-size: 4em;
+    float: right;
+    margin-top: 1em;
+    margin-left: 3em;
+}
+
+div2{
+    width: 20em;
+    height: 20em;
+    background-color: #fff;
+    margin: 1em;
+    margin-top: 19em;
+}
+
+footer{
+    width: 100%;
+    height:10em;
+    background-color: #171717;
+}
+
+/****************************************
+#       CONFIGURACION RESPONSIVE        *
+****************************************/
+
+@media only screen and (max-width:1440px) {
+    section{
+        background-color: red;
+    }
+}
+
+@media only screen and (max-width:1366px) {}
+
+@media only screen and (max-width:1024px) {
+    section{
+        background-color: green;
+    }
+    nav a{
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    section{
+        background-color: pink;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    section{
+        background-color: orange;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    section{
+        background-color: black;
+    }
+}    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">

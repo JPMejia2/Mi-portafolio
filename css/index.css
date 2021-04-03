@@ -41,20 +41,6 @@ header{
     display: inline-block;
 }
 
-.cuadro1_1{
-    width: 31em;
-    height: 100%;
-    background-color: var(--gris);
-    float: left;
-}
-
-.cuadro1_2{
-    width: 31em;
-    height: 100%;
-    float: right;
-    background-color: var(--gris);
-}
-
 .deco1{
     width: 29em;
     float: left;
@@ -84,21 +70,6 @@ header{
     text-align: center;
 }
 
-.cuadro2_1{
-    width: 31em;
-    height: 100%;
-    float: left;
-    background-color: var(--blanco);
-}
-
-
-.cuadro2_2{
-    width: 31em;
-    height: 100%;
-    float: right;
-    background-color: var(--blanco);
-}
-
 .acercademitexto{
     color: var(--azul);
     font-size: 4em;
@@ -107,14 +78,13 @@ header{
     margin-right: 3em;
 }
 .cuadronegro{
-    width: 123em;
+    width: 90%;
     height: 45em;
     background-color: var(--blanco);
     box-shadow: -12px 12px 20px 1px grey;
     border-radius: 0.5em;
     text-align: center;
     margin-top: 2em;
-    margin-left: 34.5em;
 }
 
 .programas{
@@ -123,20 +93,8 @@ header{
     background-color: var(--gris);
     flex-direction: row;
     justify-content: space-around;
-}
-
-.cuadro3_1{
-    width: 31em;
-    height: 100%;
-    float: left;
-    background-color: var(--gris);
-}
-
-.cuadro3_2{
-    width: 31em;
-    height: 100%;
-    float: right;
-    background-color: var(--gris);
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .text{
@@ -215,3 +173,4 @@ footer{
     }
 }    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+

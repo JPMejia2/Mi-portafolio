@@ -1,20 +1,26 @@
 body{
-    background-color:antiquewhite;
+    background-color:var(--gris);
     height: auto;
 }
 
 .contenedor{
-width: 80%;
-max-width: 1000px;
-background-color: aqua;
-margin: 0 auto;
-overflow: hidden;
+    width: 80%;
+    max-width: 2000px;
+    background-color: aqua;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 2em;
 }
 
-header{
+.menu{
     width: 100%;
     height: 8em;
+    text-align: end;
     background-color: var(--blanco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
 }
 
 .logo {
@@ -25,39 +31,107 @@ header{
     margin-left: 7em;
 }
 
-.nav{
-    float: right;
-    margin-top: 4em;
+.menu_items{
     display: flex;
-    flex-direction: row;
     list-style: none;
-}
-.nav a{
-    text-decoration: none;
-    color: black;
-    margin-right: 5em;
-    font-size: 1.5em;
-    margin-left: 4em;
-    margin-top: -0.5em;
+    margin-right: 30px;
+    justify-content: flex-end;
 }
 
-.nav a:hover{
-    color: var(--griso);
+.menu_items li{
+    border-radius: 3px;
+    margin: 0 8px;
+}
+
+.menu_items li a{
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    color: var(--negro);
+}
+
+.menu_items li:hover, li.active{
+    background-color: rgba(0, 0, 0, .1);
     transition: 0.4s;
 }
 
+.btn_menu{
+    margin-right: 30px;
+    font-size: 25px;
+    color: (--negro);
+    cursor: pointer;
+}
+
+ul.show{
+    top:65px;
+}
+
+//---------------------------------------------------------------------//
+
+@media screen and (max-width:952px){
+    .logo{
+        font-size: 30px;
+        padding-left: 35px;
+    }
+    .menu_items li a{
+        font-size: 16px;    
+    }
+}
+
+@media screen and (max-width:952px){
+    .menu{
+        height: 65px;
+    }
+    .btn_menu{
+        display: inline-flex;
+    }
+    .menu_items{
+        position: fixed;
+        width: 100vw;
+        height: calc(100% - 65px);
+        background: var(--negro);
+        top: -100vh;
+        text-align: center;
+        transition: all .4s;
+        flex-direction: column;
+    }
+    .menu_items li{
+        margin: 30px 0 0 0;
+        line-height: 30px;
+    }
+    .menu_items li:hover{
+        background: none;
+    }
+    .menu_items li a{
+        font-size: 20px;
+        color: (--negro);
+    }
+    .menu_items li a:hover{
+        color: (--negro);
+    }
+    .logo{
+        width: 13em;
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width:858px) and (orientation: landscape){
+    .menu_items li{
+        margin: 5px 0 0 0;
+    }
+    .menu_items{
+        overflow: scroll;
+        height: calc(100% - 65px);
+    }
+}
 .presentacion{
     width: 100%;
     height: 70em;
     background-color: var(--gris);
     font-family: 'Bebas Neue', cursive;
     display: inline-block;
-}
-
-.deco1{
-    width: 29em;
-    float: left;
-    margin-top: 13em;
 }
 
 .saludo{
@@ -98,6 +172,7 @@ header{
     border-radius: 0.5em;
     text-align: center;
     margin-top: 2em;
+    margin: auto;
 }
 
 .programas{
@@ -151,32 +226,18 @@ footer{
 #       CONFIGURACION RESPONSIVE        *
 **************/
 
-@media only screen and (max-width:1440px) {
-    section{
+@media screen and (max-width:800px){
+    body{
         background-color: red;
     }
 }
 
-@media only screen and (max-width:1366px) {}
-
-@media only screen and (max-width:1024px) {
-    section{
-        background-color: green;
+@media screen and (max-width:414px){
+    .contenedor{
+        width: 100%;
     }
-    nav a{
-        font-size: 2em;
-    }
-}
-
-@media only screen and (max-width:768px) {
-    section{
-        background-color: pink;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    section{
-        background-color: orange;
+    .presentacion{
+        height: 500px;
     }
 }
 
@@ -186,4 +247,3 @@ footer{
     }
 }    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-

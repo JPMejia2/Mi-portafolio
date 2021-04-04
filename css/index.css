@@ -62,6 +62,7 @@ body{
     font-size: 25px;
     color: (--negro);
     cursor: pointer;
+    display: none;
 }
 
 ul.show{
@@ -91,7 +92,7 @@ ul.show{
         position: fixed;
         width: 100vw;
         height: calc(100% - 65px);
-        background: var(--negro);
+        background: var(--griso);
         top: -100vh;
         text-align: center;
         transition: all .4s;
@@ -106,14 +107,14 @@ ul.show{
     }
     .menu_items li a{
         font-size: 20px;
-        color: (--negro);
+        color: (--blanco);
     }
     .menu_items li a:hover{
         color: (--negro);
     }
     .logo{
         width: 13em;
-        padding-left: 30px;
+        padding-left: 20px;
     }
 }
 

@@ -10,22 +10,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Chango&family=Comfortaa:wght@500&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+    <script src="js/menu.js"></script>
         
 </head>
 <body>
-<div class="contenedor">
-<header>
+    
+<nav class="menu">
    <img class="logo" src="img/logojp.jpg" alt="logo JP">    
-    <ul class="nav">
-                    <a href="#"><li>INICIO</li></a>
-                    <a href="#"><li>PROYECTOS</li></a>
-                    <a href="#"><li>PROGRAMACIONES</li></a>
-            </ul> 
+    <ul class="menu_items">
+        <li class="active"><a href="#">INICIO</a></li>
+        <li><a href="#">PROYECTOS</a></li>
+        <li><a href="#">PROGRAMACIONES</a></li>
+    </ul> 
 
-</header>
+    <span class="btn_menu">
+        <i class="fas fa-bars"></i>
+    </span>
+</nav>
 
+<div class="contenedor">
 <section class="presentacion">
-    <img class="deco1" src="img/deco1.png" alt="deco1">
         <h1 class="saludo"> HOLA, SOY JOSÉ PABLO <br> Y ESTE ES MI PORTAFOLIO </h1>
         <p class="grado">DISEÑADOR / V BACHILLERATO </p>
 </section>
@@ -48,9 +52,8 @@
             <div2></div2>
         </div>
 </section>
-    
-<footer></footer>
 </div>
+<footer></footer>
 
 </body>    
 </html>

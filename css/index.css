@@ -326,7 +326,7 @@ footer{
     }
     .contenedor{
         width: 100%;
-        height: 2000px;
+        height: 1290px;
     }
     .acercademi{
         height: 700px;
@@ -349,5 +349,11 @@ footer{
         height: 630px;
         text-align: center;
         padding: 5px;
+    }
+}
+@media screen and (max-width:702px){
+    .contenedor{
+        width: 100%;
+        height: 2000px;
     }
 }

@@ -338,7 +338,7 @@ footer{
 
 @media screen and (max-width:952px){
     .presentacion{
-        height: 540px;
+        height: 580px;
     }
     .acercademi{
         height: auto;
@@ -352,6 +352,7 @@ footer{
     .acercademitexto{
         font-size: 30px;
         float: left;
+        padding-left: 0px;
     }
     .programas{
         height: 750px;
@@ -387,7 +388,7 @@ footer{
 
 @media screen and (max-width:722px){
     .presentacion{
-        height: 300px;
+        height: 280px;
     }
     .contenedor{
         width: 100%;
@@ -397,8 +398,9 @@ footer{
         height: auto;
     }
     .acercademitexto{
-        font-size: 30px;
+        font-size: 26px;
         float: left;
+        padding-left: 0px;
     }
     .cuadroacercademi{
         width: 100%;
@@ -416,7 +418,7 @@ footer{
         width: 100%;
         height: auto;
         text-align: center;
-        padding: 20px;
+        padding: 10px;
     }
     .footer-content p{
     font-size: 9px;

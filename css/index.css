@@ -3,138 +3,21 @@ body{
     height: auto;
 }
 
-.contenedor{
-    width: 80%;
-    max-width: 2000px;
-    background-color: var(--gris);
-    margin: 0 auto;
-    overflow: hidden;
-    margin-top: 2em;
-}
-
-.menu{
-    width: 100%;
-    height: 8em;
-    text-align: end;
-    background-color: var(--blanco);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
-}
-
-.logo {
-    width: 16em;
-    margin-top: 0.5em;
-    margin-right: 10em;
-    float: left;
-    margin-left: 6em;
-}
-
-.menu_items{
-    display: flex;
-    list-style: none;
-    margin-right: 30px;
-    justify-content: flex-end;
-}
-
-.menu_items li{
-    border-radius: 3px;
-    margin: 0 8px;
-}
-
-.menu_items li a{
-    padding: 7px 13px;
-    text-decoration: none;
-    font-size: 18px;
-    display: block;
-    text-transform: uppercase;
-    color: var(--negro);
-}
-
-.menu_items li:hover, li.active{
-    background-color: rgba(0, 0, 0, .1);
-    transition: 0.4s;
-}
-
-.btn_menu{
-    margin-right: 30px;
-    font-size: 25px;
-    color: (--negro);
-    cursor: pointer;
-    display: none;
-}
-
-ul.show{
-    top:65px;
-}
-
-/*****************************************************/
-
-
-@media screen and (max-width:952px){
-    .menu{
-        height: 65px;
-    }
-    .btn_menu{
-        display: inline-flex;
-    }
-    .menu_items{
-        position: fixed;
-        width: 100vw;
-        height: calc(100% - 65px);
-        background: var(--negro);
-        top: -100vh;
-        text-align: center;
-        transition: all .4s;
-        flex-direction: column;
-    }
-    .menu_items li{
-        margin: 30px 0 0 0;
-        line-height: 65px;
-    }
-    .menu_items li:hover{
-        background: none;
-    }
-    .menu_items li a{
-        font-size: 20px;
-        color: var(--blanco);
-    }
-    .menu_items li a:hover{
-        color: var(--blanco);
-    }
-    .logo{
-        width: 10em;
-        padding-left: 0px;
-    }
-}
-
-@media screen and (max-width:858px) and (orientation: landscape){
-    .menu_items li{
-        margin: 5px 0 0 0;
-    }
-    .menu_items{
-        overflow: scroll;
-        height: calc(100% - 65px);
-    }
-}
-
-/****************************************************************/
 .presentacion{
     width: 100%;
-    height: 70em;
-    background-image: url(../img/Sin%20t%C3%ADtulo.png);
+    height: 85em;
+    background-image: url(../img/Sin%20t%C3%ADtulo-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     font-family: 'Bebas Neue', cursive;
     display: inline-block;
-    margin-top: 2em;
+    margin-top: 1.5em;
 }
 
 .acercademi{
     width: 100%;
-    height: 54em;
+    height: 64em;
     background-color: var(--blanco);
     text-align: center;
     display: inline-block;
@@ -144,7 +27,8 @@ ul.show{
 
 .cuadronegro{
     width: 80%;
-    height: 45em;
+    height: 57em;
+    max-width: 2000px;
     background-color: var(--blanco);
     box-shadow: -14px 25px 25px rgba(0, 0, 0, .3);
     text-align: center;
@@ -170,14 +54,30 @@ ul.show{
     float: left;
 }
 
+.cuadroacercademi p{
+    margin: 10px auto;
+    line-height: 20px;
+    font-size: 16px;
+    text-align: justify;
+}
+
 .cuadroimg{
     width: 40%;
-    height: 40em;
-    background-image: url(../img/pinguino-rey.jpg);
+    height: 52em;
+    background-image: url(../img/ilustracion.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: inline-block;
+}
+
+.contenedor{
+    width: 80%;
+    max-width: 2000px;
+    background-color: var(--gris);
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 2em;
 }
 
 .programas{
@@ -219,33 +119,173 @@ div2{
     margin-right: 1em;
     margin-top: 4em;
     display: inline-block;
-    border: blue, solid;
     box-sizing: border-box;
+}
+
+.pro1{
+    width: 100%;
+    height: 85%;
+    background-image: url(../img/photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pro2{
+    width: 100%;
+    height: 85%;
+    background-image: url(../img/illustrator.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pro3{
+    width: 100%;
+    height: 85%;
+    background-image: url(../img/adobexd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pro4{
+    width: 100%;
+    height: 85%;
+    background-image: url(../img/c0db0dd79101111ea7b7e0feaa4c1c35.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pro5{
+    width: 100%;
+    height: 85%;
+    background-image: url(../img/brackets.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.protext{
+    font-size: 2em;
+    margin-top: 0.5em;
+    color: var(--azul);
 }
 
 footer{
     width: 100%;
-    height:10em;
+    height: auto;
     background-color: var(--negro);
+    padding-top: 40px;
+    color: var(--blanco);
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: var(--blanco);
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: var(--negro);
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
 }
 
 /**************
 #       CONFIGURACION RESPONSIVE        *
 **************/
+@media screen and (max-width:1836px){
+    .acercademi{
+        height: 700px;
+    }
+    .cuadronegro{
+        height: 610px;
+    }
+    .cuadroimg{
+        height: 560px;
+    }
+}
+@media screen and (max-width:1741px){
+    .presentacion{
+        height: 800px;
+    }
+    .acercademi{
+        height: 720px;
+    }
+    .cuadronegro{
+        height: 630px;
+    }
+    .cuadroimg{
+        height: 580px;
+    }
+}
+
 @media screen and (max-width:1692px){
     .presentacion{
-        height: 500px;
+        height: 770px;
     }
     .contenedor{
         width: 100%;
         height: 480px;
     }
     .acercademi{
-        height: 620px;
+        height: 710px;
     }
     .cuadronegro{
         width: 100%;
-        height: 500px;
+        height: 630px;
         text-align: left;
         padding: 20px;
     }
@@ -262,7 +302,7 @@ footer{
     }
     .cuadroimg{
         width: 40%;
-        height: 460px;
+        height: 590px;
     }
     .cuadroacercademi{
         width: 60%;
@@ -271,24 +311,43 @@ footer{
     }
 }
 @media screen and (max-width:1351px){
+    .presentacion{
+        height: 800px;
+    }
     .contenedor{
         width: 100%;
         height: 740px;
+    }
+    .acercademi{
+        height: auto;
+    }
+    .cuadronegro{
+        height: auto;
+        padding: 20px;
+    }
+    .cuadroacercademi{
+        width: 100%;
+        height: auto;
+        font-size: 8px;
+    }
+    .cuadroimg{
+        width: 100%;
+        height: 700px;
     }
 }
 
 @media screen and (max-width:952px){
     .presentacion{
-        height: 400px;
+        height: 580px;
     }
     .acercademi{
-        height: 790px;
+        height: auto;
     }
     .cuadronegro{
         width: 100%;
-        height: 730px;
+        height: auto;
         text-align: center;
-        padding: 5px;
+        padding: 20px;
     }
     .acercademitexto{
         font-size: 30px;
@@ -298,12 +357,12 @@ footer{
         height: 750px;
     }
     .cuadroimg{
-        width: 80%;
+        width: 90%;
         height: 400px;
     }
     .cuadroacercademi{
         width: 100%;
-        height: 300px;
+        height: auto;
         padding: 10px;
     }
     .contenedor{
@@ -321,18 +380,21 @@ footer{
         height: 320px;
         width: 310px;
     }
+    .footer-content p{
+    font-size: 12px;
+    }
 }
 
 @media screen and (max-width:722px){
     .presentacion{
-        height: 260px;
+        height: 300px;
     }
     .contenedor{
         width: 100%;
         height: 1290px;
     }
     .acercademi{
-        height: 700px;
+        height: auto;
     }
     .acercademitexto{
         font-size: 30px;
@@ -340,7 +402,7 @@ footer{
     }
     .cuadroacercademi{
         width: 100%;
-        height: 300px;
+        height: auto;
         padding: 10px;
     }
     .cuadroimg{
@@ -352,9 +414,12 @@ footer{
     }
     .cuadronegro{
         width: 100%;
-        height: 630px;
+        height: auto;
         text-align: center;
-        padding: 5px;
+        padding: 20px;
+    }
+    .footer-content p{
+    font-size: 9px;
     }
 }
 @media screen and (max-width:702px){

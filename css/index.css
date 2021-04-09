@@ -298,10 +298,10 @@ body{
 }
 @media screen and (max-width:1741px){
     .jose{
-    width: auto;
-    height: 97%;
-    margin-top: 24.5px;
-    margin-left: 47.9%;
+        width: auto;
+        height: 97%;
+        margin-top: 24.5px;
+        margin-left: 47.9%;
     }
     .presentacion{
         height: 700px;
@@ -363,7 +363,7 @@ body{
         margin-left: 47.7%;
     }
 }
-@media screen and (max-width:1351px){
+@media screen and (max-width:1371px){
     .presentacion{
         height: 500px;
     }
@@ -375,7 +375,11 @@ body{
     }
     .contenedor{
         width: 100%;
-        height: 740px;
+        height: 750px;
+    }
+    .c1, .c2, .c3, .c4, .c5{
+        width: 26em;
+        height: 26em;
     }
     .acercademi{
         height: auto;
@@ -441,6 +445,10 @@ body{
     .programas{
         height: 750px;
     }
+    .c1, .c2, .c3, .c4, .c5{
+        width: 24em;
+        height: 24em;
+    }
     .cuadroimg{
         width: 90%;
         height: 400px;
@@ -500,7 +508,7 @@ body{
     }
     .contenedor{
         width: 100%;
-        height: auto;
+        height: 1000px;
     }
     .acercademi{
         height: auto;

@@ -1,0 +1,519 @@
+body{
+    background-color:var(--gris);
+    height: auto;
+}
+
+.presentacion{
+    width: 100%;
+    height: 70em;
+    background-image: url(../img/MISPROYECTOS22.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    font-family: 'Bebas Neue', cursive;
+    display: inline-block;
+    margin-top: 1.5em;
+    margin-bottom: 0em;
+}
+
+.proyectos2{
+    width: 100%;
+    height: 100%;
+    background-color: var(--blanco);
+}
+
+.contenedor2{
+    width: 80%;
+    max-width: 2200px;
+    background-color: var(--blanco);
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.programas2{
+    width: 100%;
+    height: 48em;
+    background-color: var(--blanco);
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.text2{
+    width: 100%;
+    height: 10em;
+    background-color: var(--blanco);
+}
+
+.progras2{
+    color: var(--negro);
+    font-size: 4em;
+    float: left;
+    margin-top: 1em;
+    display: inline-block;
+}
+
+.cuadritos2{
+    width: 100%;
+    height: 100%;
+    background-color: var(--blanco);
+    text-align:center;
+    margin-top: 3em;
+}
+
+.pre1{
+    width: 24%;
+    height: 28em;
+    background-image: url(../img/photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin-right: 1.5em;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, .3);
+}
+
+.pre2{
+    width: 24%;
+    height: 28em;
+    background-image: url(../img/carro.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin-right: 1.5em;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, .3);
+}
+
+.pre3{
+    width: 24%;
+    height: 28em;
+    background-image: url(../img/photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin-right: 1.5em;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, .3);
+}
+
+.pre4{
+    width: 24%;
+    height: 28em;
+    background-image: url(../img/photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, .3);
+}
+
+.proyectos1{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/fondoproyectos2.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor1{
+    width: 80%;
+    max-width: 2200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.programas{
+    width: 100%;
+    height: 90em;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.text{
+    width: 100%;
+    height: 10em;
+}
+
+.progras{
+    color: var(--negro);
+    font-size: 4em;
+    float: left;
+    margin-top: 1em;
+    display: inline-block;
+}
+
+.cuadritos{
+    width: 100%;
+    height: 100%;
+    text-align:center;
+    margin-top: 3em;
+}
+
+.pro1{
+    width: 32.5%;
+    height: 33em;
+    background-image: url(../img/animacionnombre.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, .3);
+    display: inline-block;
+    margin-right: 1.5em;
+}
+
+.pro2{
+    width: 32.5%;
+    height: 33em;
+    background-image: url(../img/pinguino.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, .3);
+    background-position: center;
+    display: inline-block;
+    margin-right: 1.5em;
+}
+
+.pro3{
+     width: 32.5%;
+    height: 33em;
+    background-image: url(../img/propuestascl.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, .3);
+    background-position: center;
+    display: inline-block;
+    margin-top: 1.5em;
+}
+
+.pro4{
+    width: 32.5%;
+    height: 35em;
+    background-image: url(../img/iconos.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, .3);
+    background-position: center;
+    display: inline-block;
+    margin-right: 1.5em;
+    margin-top: 1.5em;
+}
+
+.pro5{
+    width: 66%;
+    height: 35em;
+    background-image: url(../img/royalgames.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, .3);
+    background-position: top;
+    display: inline-block;
+    margin-top: 1.5em;
+}
+
+.proyectos3{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/fondoproyectos3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.contenedor3{
+    width: 80%;
+    max-width: 2200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.programas3{
+    width: 100%;
+    height: 85em;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.text3{
+    width: 100%;
+    height: 10em;
+}
+
+.progras3{
+    color: var(--negro);
+    font-size: 4em;
+    float: left;
+    margin-top: 1em;
+    display: inline-block;
+}
+
+.cuadritos3{
+    width: 100%;
+    height: 100%;
+    margin-top: 3em;
+}
+
+.pri1{
+    width: 49%;
+    height: 30em;
+    background-image: url(../img/gato.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, .3);
+    display: inline-block;
+    margin-right: 1.5em;
+}
+
+.pri2{
+    width: 24%;
+    height: 30em;
+    background-image: url(../img/limon.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, .3);
+    display: inline-block;
+    margin-right: 1.5em;
+}
+
+.pri3{
+    width: 24%;
+    height: 30em;
+    background-image: url(../img/palmera.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, .3);
+    display: inline-block;
+}
+
+.pri4{
+     width: 24%;
+    height: 30em;
+    background-image: url(../img/ballena.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, .3);
+    display: inline-block;
+    background-position: center;
+    margin-right: 1.5em;
+    margin-top: 1.5em;
+}
+
+.pri5{
+     width: 24%;
+    height: 30em;
+    background-image: url(../img/ave.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, .3);
+    display: inline-block;
+    margin-right: 1.5em;
+    margin-top: 1.5em;
+}
+
+.pri6{
+     width: 24%;
+    height: 30em;
+    background-image: url(../img/fundamentaciondedise%C3%B1o.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, .3);
+    display: inline-block;
+    margin-right: 1.5em;
+    margin-top: 1.5em;
+}
+
+.pri7{
+    width: 24%;
+    height: 30em;
+    background-image: url(../img/web1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, .3);
+    display: inline-block;
+    margin-top: 1.5em;
+}
+
+.proyectos4{
+    width: 100%;
+    height: 100%;
+    background-color: var(--gris);
+}
+
+.contenedor4{
+    width: 80%;
+    max-width: 2200px;
+    background-color: var(--gris);
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.programas4{
+    width: 100%;
+    height: 48em;
+    background-color: var(--gris);
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.text4{
+    width: 100%;
+    height: 10em;
+    background-color: var(--gris);
+}
+
+.progras4{
+    color: var(--negro);
+    font-size: 4em;
+    float: left;
+    margin-top: 1em;
+    display: inline-block;
+}
+
+.cuadritos4{
+    width: 100%;
+    height: 100%;
+    background-color: var(--gris);
+    text-align:center;
+    margin-top: 3em;
+}
+
+.pru1{
+    width: 24%;
+    height: 28em;
+    background-image: url(../img/photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, .3);
+    display: inline-block;
+    margin-right: 1.5em;
+}
+
+.pru2{
+    width: 24%;
+    height: 28em;
+    background-image: url(../img/carro.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, .3);
+    display: inline-block;
+    margin-right: 1.5em;
+}
+
+.pru3{
+    width: 24%;
+    height: 28em;
+    background-image: url(../img/photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, .3);
+    display: inline-block;
+    margin-right: 1.5em;
+}
+
+.pru4{
+    width: 24%;
+    height: 28em;
+    background-image: url(../img/photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, .3);
+    display: inline-block;
+}
+
+
+/**************
+#       CONFIGURACION RESPONSIVE        *
+**************/
+@media screen and (max-width:1741px){
+    .presentacion{
+        height: 800px;
+    }
+}
+
+@media screen and (max-width:1692px){
+    .presentacion{
+        height: 700px;
+    }
+    .contenedor1{
+        width: 100%;
+        height: 480px;
+    }
+    .programas{
+        height: 750px;
+    }
+    .progras{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width:1351px){
+    .presentacion{
+        height: 550px;
+    }
+    .contenedor1{
+        width: 100%;
+        height: 740px;
+    }
+}
+
+@media screen and (max-width:952px){
+    .presentacion{
+        height: 580px;
+    }
+    .contenedor1{
+        width: 100%;
+        height: auto;
+    }
+    .progras{
+        font-size: 30px;
+    }
+    .cuadritos{
+        width: auto;
+        height: auto;
+    }
+    .footer-content p{
+    font-size: 12px;
+    }
+}
+
+@media screen and (max-width:825px){
+    .contenedor1{
+        width: 100%;
+        height: 1000px;
+    }
+    .pre1, .pre2, .pre3, .pre4{
+        width: 46%;
+        height: 20em;
+    }
+}
+
+@media screen and (max-width:722px){
+    .presentacion{
+        height: 280px;
+    }
+    .footer-content p{
+    font-size: 9px;
+    }
+}
+@media screen and (max-width:702px){
+    .contenedor1{
+        width: 100%;
+        height: 1200;
+    }
+}
+@media screen and (max-width:562px){
+    .contenedor1{
+        width: 100%;
+        height: 1550px;
+    }
+}

@@ -153,10 +153,6 @@ body{
 .pro1{
     width: 32.5%;
     height: 33em;
-    background-image: url(../img/animacionnombre.JPG);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     box-shadow: 0px 20px 20px rgba(0, 0, 0, .3);
     display: inline-block;
     margin-right: 1.5em;
@@ -165,24 +161,15 @@ body{
 .pro2{
     width: 32.5%;
     height: 33em;
-    background-image: url(../img/pinguino.JPG);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     box-shadow: 0px 20px 20px rgba(0, 0, 0, .3);
-    background-position: center;
     display: inline-block;
     margin-right: 1.5em;
 }
 
 .pro3{
-     width: 32.5%;
+    width: 32.5%;
     height: 33em;
-    background-image: url(../img/propuestascl.JPG);
-    background-repeat: no-repeat;
-    background-size: cover;
     box-shadow: 0px 20px 20px rgba(0, 0, 0, .3);
-    background-position: center;
     display: inline-block;
     margin-top: 1.5em;
 }
@@ -190,11 +177,7 @@ body{
 .pro4{
     width: 32.5%;
     height: 35em;
-    background-image: url(../img/iconos.JPG);
-    background-repeat: no-repeat;
-    background-size: cover;
     box-shadow: 0px 20px 20px rgba(0, 0, 0, .3);
-    background-position: center;
     display: inline-block;
     margin-right: 1.5em;
     margin-top: 1.5em;
@@ -203,11 +186,7 @@ body{
 .pro5{
     width: 66%;
     height: 35em;
-    background-image: url(../img/royalgames.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     box-shadow: 0px 20px 20px rgba(0, 0, 0, .3);
-    background-position: top;
     display: inline-block;
     margin-top: 1.5em;
 }
@@ -259,10 +238,6 @@ body{
 .pri1{
     width: 49%;
     height: 30em;
-    background-image: url(../img/gato.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, .3);
     display: inline-block;
     margin-right: 1.5em;
@@ -271,10 +246,6 @@ body{
 .pri2{
     width: 24%;
     height: 30em;
-    background-image: url(../img/limon.PNG);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, .3);
     display: inline-block;
     margin-right: 1.5em;
@@ -283,33 +254,22 @@ body{
 .pri3{
     width: 24%;
     height: 30em;
-    background-image: url(../img/palmera.JPG);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, .3);
     display: inline-block;
 }
 
 .pri4{
-     width: 24%;
+    width: 24%;
     height: 30em;
-    background-image: url(../img/ballena.JPG);
-    background-repeat: no-repeat;
-    background-size: cover;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, .3);
     display: inline-block;
-    background-position: center;
     margin-right: 1.5em;
     margin-top: 1.5em;
 }
 
 .pri5{
-     width: 24%;
+    width: 24%;
     height: 30em;
-    background-image: url(../img/ave.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, .3);
     display: inline-block;
@@ -320,10 +280,6 @@ body{
 .pri6{
      width: 24%;
     height: 30em;
-    background-image: url(../img/fundamentaciondedise%C3%B1o.PNG);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, .3);
     display: inline-block;
     margin-right: 1.5em;
@@ -333,10 +289,6 @@ body{
 .pri7{
     width: 24%;
     height: 30em;
-    background-image: url(../img/web1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, .3);
     display: inline-block;
     margin-top: 1.5em;
@@ -391,9 +343,6 @@ body{
 .pru1{
     width: 24%;
     height: 28em;
-    background-image: url(../img/photo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     box-shadow: 0px 20px 20px rgba(0, 0, 0, .3);
     display: inline-block;
     margin-right: 1.5em;
@@ -402,9 +351,10 @@ body{
 .pru2{
     width: 24%;
     height: 28em;
-    background-image: url(../img/carro.JPG);
+    background-image: url(../img/menu.PNG);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     box-shadow: 0px 20px 20px rgba(0, 0, 0, .3);
     display: inline-block;
     margin-right: 1.5em;
@@ -413,7 +363,7 @@ body{
 .pru3{
     width: 24%;
     height: 28em;
-    background-image: url(../img/photo.jpg);
+    background-image: url(../img/eventoclick.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0px 20px 20px rgba(0, 0, 0, .3);
@@ -424,9 +374,10 @@ body{
 .pru4{
     width: 24%;
     height: 28em;
-    background-image: url(../img/photo.jpg);
+    background-image: url(../img/banner.PNG);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     box-shadow: 0px 20px 20px rgba(0, 0, 0, .3);
     display: inline-block;
 }

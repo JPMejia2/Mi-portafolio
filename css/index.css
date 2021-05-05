@@ -304,58 +304,66 @@ body{
 **************/
 @media screen and (max-width:5000px){
     .jose{
-        width: 904px;
+        width: 1104px;
         height: 1003px;
-        margin-top: 140.9px;
+        margin-top: 100.9px;
         margin-left: 57.3%;
     }
 }
 @media screen and (max-width:3000px){
     .jose{
-        width: 704px;
+        width: 904px;
         height: 803px;
-        margin-top: 99.9px;
+        margin-top: 20.9px;
         margin-left: 52.3%;
     }
 }
 @media screen and (max-width:2574px){
     .jose{
-        width: 704px;
+        width: 904px;
         height: 803px;
-        margin-top: 99.9px;
+        margin-top: 20.9px;
         margin-left: 50.3%;
     }
 }
 @media screen and (max-width:2185px){
     .presentacion{
-        height: 70em;
+        height: 80em;
     }
     .jose{
         width: auto;
-        height: 97%;
-        margin-top: 40.9px;
-        margin-left: 48.3%;
+        height: 98%;
+        margin-top: 18.9px;
+        margin-left: 47.75%;
     }
 }
 @media screen and (max-width:2152px){
     .jose{
         width: auto;
         height: 97%;
-        margin-top: 37px;
-        margin-left: 48.3%;
+        margin-top: 17px;
+        margin-left: 47.7%;
     }
 }
 @media screen and (max-width:2148px){
     .jose{
         width: auto;
         height: 97%;
-        margin-top: 28px;
-        margin-left: 48%;
+        margin-top: 15px;
+        margin-left: 47.65%;
+    }
+}
+@media screen and (max-width:2000px){
+    .jose{
+        width: auto;
+        height: 97%;
+        margin-top: 9px;
+        margin-left: 47.35%;
     }
 }
 @media screen and (max-width:1962px){
     .jose{
-        margin-left: 47.8%;
+        margin-left: 47.2%;
     }
     .cuadroimg{
         width: 55%;
@@ -372,10 +380,8 @@ body{
         height: 680px;
     }
     .jose{
-        width: auto;
-        height: 97%;
-        margin-top: 30px;
-        margin-left: 48.2%;
+        margin-top: 16px;
+        margin-left: 47.7%;
     }
     .cuadroimg{
         width: 55%;
@@ -391,8 +397,8 @@ body{
     .jose{
         width: auto;
         height: 97%;
-        margin-top: 25px;
-        margin-left: 48.2%;
+        margin-top: 14px;
+        margin-left: 47.6%;
     }
     .acercademi{
         height: auto;
@@ -414,16 +420,16 @@ body{
     .jose{
         width: auto;
         height: 97%;
-        margin-top: 24px;
-        margin-left: 48%;
+        margin-top: 9px;
+        margin-left: 47.6%;
     }
 }
 @media screen and (max-width:1741px){
     .jose{
         width: auto;
         height: 97%;
-        margin-top: 24.5px;
-        margin-left: 47.9%;
+        margin-top: 9.5px;
+        margin-left: 47.4%;
     }
     .presentacion{
         height: 700px;
@@ -448,6 +454,12 @@ body{
 @media screen and (max-width:1692px){
     .presentacion{
         height: 640px;
+    }
+    .jose{
+        width: auto;
+        height: 97%;
+        margin-top: 9.2px;
+        margin-left: 47.5%;
     }
     .contenedor{
         width: 100%;
@@ -487,8 +499,8 @@ body{
     .jose{
         width: auto;
         height: 97%;
-        margin-top: 23px;
-        margin-left: 47.7%;
+        margin-top: 8px;
+        margin-left: 47.3%;
     }
     .cuadronegro{
         height: 550px;
@@ -501,6 +513,12 @@ body{
     }
 }
 @media screen and (max-width:1458px){
+    .jose{
+        width: auto;
+        height: 97%;
+        margin-top: 8px;
+        margin-left: 47.1%;
+    }
     .cuadronegro{
         height: 550px;
     }
@@ -522,8 +540,8 @@ body{
     .jose{
         width: auto;
         height: 97%;
-        margin-top: 23px;
-        margin-left: 48.2%;
+        margin-top: 21px;
+        margin-left: 47.9%;
     }
     .contenedor{
         width: 100%;
@@ -550,10 +568,42 @@ body{
         padding-top: 110px;
     }
 }
+@media screen and (max-width:1363px){
+    .jose{
+        width: auto;
+        height: 97%;
+        margin-top: 18px;
+        margin-left: 47.9%;
+    }
+}
+@media screen and (max-width:1358px){
+    .jose{
+        width: auto;
+        height: 97%;
+        margin-top: 15px;
+        margin-left: 47.9%;
+    }
+}
+@media screen and (max-width:1350px){
+    .jose{
+        width: auto;
+        height: 97%;
+        margin-top: 12px;
+        margin-left: 47.8%;
+    }
+}
+@media screen and (max-width:1345px){
+    .jose{
+        width: auto;
+        height: 97%;
+        margin-top: 12px;
+        margin-left: 47.8%;
+    }
+}
 @media screen and (max-width:1340px){
     .jose{
-        margin-top: 17px;
-        margin-left: 48%;
+        margin-top: 8px;
+        margin-left: 47.6%;
     }
     .cuadroimg{
         width: 50%;
@@ -566,7 +616,21 @@ body{
         padding-top: 110px;
     }
 }
+@media screen and (max-width:1335px){
+    .jose{
+        width: auto;
+        height: 97%;
+        margin-top: 6px;
+        margin-left: 47.6%;
+    }
+}
 @media screen and (max-width:1288px){
+    .jose{
+        width: auto;
+        height: 97%;
+        margin-top: 6px;
+        margin-left: 47.4%;
+    }
     .cuadroimg{
         width: 50%;
         height: 100%;
@@ -579,6 +643,12 @@ body{
     }
 }
 @media screen and (max-width:1168px){
+    .jose{
+        width: auto;
+        height: 97%;
+        margin-top: 6px;
+        margin-left: 47.2%;
+    }
     .acercademi{
         height: 1250px;
     }
@@ -641,8 +711,8 @@ body{
         height: 440px;
     }
     .jose{
-        margin-top: 15px;
-        margin-left: 48%;
+        margin-top: 5px;
+        margin-left: 47.55%;
     }
     .cuadroimg{
         width: 100%;
@@ -660,7 +730,17 @@ body{
         margin-top: 2em;
     }
 }
+@media screen and (max-width:1141px){
+    .jose{
+        margin-top: 5px;
+        margin-left: 47.4%;
+    }
+}
 @media screen and (max-width:1073px){
+    .jose{
+        margin-top: 5px;
+        margin-left: 47.2%;
+    }
     .cuadroacercademi{
         font-size: 2em;
     }
@@ -675,8 +755,8 @@ body{
 }
 @media screen and (max-width:1035px){
     .jose{
-        margin-top: 15px;
-        margin-left: 47.6%;
+        margin-top: 6px;
+        margin-left: 47.2%;
     }
     .cuadroacercademi{
         font-size: 1.8em;;
@@ -692,14 +772,9 @@ body{
 
 @media screen and (max-width:952px){
     
-    .presentacion{
-        background-image: url(../img/presentacion2.jpg);
-        height: 840px;
-        width: 100%;
-    }
     .jose{
-        margin-top: 12.5px;
-        margin-left: 47.9%;
+        margin-top: 4.8px;
+        margin-left: 47%;
     }
     .acercademi{
         height: 1160px;
@@ -738,13 +813,14 @@ body{
     .footer-content p{
         font-size: 12px;
     }
-    .jose{
-        display: none;
-    }
 }
 @media screen and (max-width:902px){
     .presentacion{
-        height: 790px;
+        height: 340px;
+    }
+    .jose{
+        margin-top: 4.2px;
+        margin-left: 47.5%;
     }
     .cuadroacercademi{
         font-size: 1.7em;
@@ -777,7 +853,11 @@ body{
 }
 @media screen and (max-width:842px){
      .presentacion{
-        height: 740px;
+        height: 340px;
+    }
+    .jose{
+        margin-top: 4.2px;
+        margin-left: 47.3%;
     }
     .contenedor{
         width: 100%;
@@ -789,7 +869,11 @@ body{
 }
 @media screen and (max-width:830px){
     .presentacion{
-        height: 730px;
+        height: 330px;
+    }
+    .jose{
+        margin-top: 3.5px;
+        margin-left: 47.4%;
     }
     .contenedor{
         width: 100%;
@@ -809,8 +893,8 @@ body{
         height: 1000px;
     }
     .jose{
-        margin-top: 12.2px;
-        margin-left: 47.8%;
+        margin-top: 3.5px;
+        margin-left: 47.3%;
     }
     .cuadroacercademi{
         font-size: 1.55em;
@@ -818,7 +902,9 @@ body{
 }
 @media screen and (max-width:788px){
     .presentacion{
-        height: 700px;
+        background-image: url(../img/presentacionII.jpg);
+        height: 720px;
+        width: 100%;
     }
     .cuadroacercademi{
         font-size: 1.4em;
@@ -853,6 +939,9 @@ body{
     }
     .boton2{
         margin-left: 28%;
+    }
+    .jose{
+        display: none;
     }
 }
 @media screen and (max-width:745px){

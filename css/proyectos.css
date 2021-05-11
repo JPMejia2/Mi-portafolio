@@ -88,9 +88,10 @@ ul.show{
         line-height: 65px;
     }
     .menu_items li:hover{
-        background: none;
+        background-color: #1A1A1A;
     }
     .menu_items li a{
+        padding: 8px 23px;
         font-size: 20px;
         color: var(--blanco);
     }

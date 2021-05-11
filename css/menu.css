@@ -24,12 +24,12 @@
     justify-content: flex-end;
 }
 
-.menu_items li{
+.menu_items > li{
     border-radius: 3px;
     margin: 0;
 }
 
-.menu_items li a{
+.menu_items > li > a{
     padding: 30px 23px;
     text-decoration: none;
     font-size: 18px;
@@ -38,7 +38,7 @@
     color: var(--negro);
 }
 
-.menu_items li:hover{
+.menu_items > li:hover{
     background-color: rgba(0, 0, 0, .1);
     transition: 0.4s;
 }
@@ -53,6 +53,39 @@
 
 ul.show{
     top:65px;
+        
+}
+
+.submenu{
+    position: absolute;
+    list-style: none;
+    background: var(--blanco);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, .25);
+    width: 16.1em;
+    transition: opacity 1.5s;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .6s;
+}
+
+.submenu li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    color: var(--negro);
+    font-size: 16px;
+}
+
+.sub1:hover{
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.botonproyectos:hover .submenu{
+    visibility: visible;
+    opacity: 1;
 }
 
 /*****************************************************/
@@ -80,14 +113,15 @@ ul.show{
         line-height: 65px;
     }
     .menu_items li:hover{
-        background: none;
+        background-color: #1A1A1A;
     }
     .menu_items li a{
+        padding: 8px 23px;
         font-size: 20px;
         color: var(--blanco);
     }
     .menu_items li a:hover{
-        color: var(--blanco);
+        color: var(--gris);
     }
     .logo{
         width: 10em;

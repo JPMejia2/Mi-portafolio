@@ -234,7 +234,7 @@ footer{
 
 .galeria img{
     box-shadow: 0px 10px 15px rgba(0, 0, 0, .3);
-    border-radius: 12px;    
+    border-radius: 5px;    
 }
 
 .galeria .col{
@@ -310,9 +310,6 @@ footer{
     .footer-content p{
     font-size: 12px;
     }
-    .proyectos11{
-        background-image: url(../img/fondo1.01.jpg);
-    }
 }
 @media screen and (max-width:844px){
     .presentacion{
@@ -328,16 +325,16 @@ footer{
         font-size: 40px;
     }
     .text11, .text2, .text3, .text4{
-        height: 
-            115px;
+        height: 115px;
     }
 }
 @media screen and (max-width:788px){
     .presentacion{
-        background-image: url(../img/presentacion2.2.jpg);
+        background-image: url(../img/AFTEREFFECTS2.jpg);
         background-position: top;
         height: 720px;
         width: 100%;
+        margin-top: 2em;
     }
 }
 @media screen and (max-width:745px){

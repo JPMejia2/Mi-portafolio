@@ -108,6 +108,7 @@ ul.show{
         text-align: center;
         transition: all .4s;
         flex-direction: column;
+        margin-bottom: 20px;
     }
     .menu_items li{
         margin: 30px 0 0 0;
@@ -128,6 +129,9 @@ ul.show{
         width: 10em;
         padding-left: 0px;
         margin-left: 3em;
+    }
+    .submenu{
+        display: none;
     }
 }
 
